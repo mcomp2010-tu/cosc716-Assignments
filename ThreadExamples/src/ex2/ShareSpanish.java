@@ -1,7 +1,7 @@
 package ex2;
 
 public class ShareSpanish extends Share {
-	static String msg[] = { "Uno", "Dos", "Tres", "Cuatro", "Cinco", "Seis",  "Siete","Ocho","Nueve", "Diez"};
+	String msg[] = { "Uno", "Dos", "Tres", "Cuatro", "Cinco", "Seis",  "Siete","Ocho","Nueve", "Diez"};
 	
 	ShareSpanish(String threadname) {
 		super(threadname);

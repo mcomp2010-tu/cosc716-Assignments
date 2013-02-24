@@ -9,10 +9,11 @@ public class DisplayExecuter {
 		//Two Choosen Language
 		DisplayCount dcSpanishCount=new DisplaySpanishCount();
 		DisplayCount dcEnglishCount=new DisplayEnglishCount();
+		DisplayCount dcChineseCount=new DisplayChineseCount();
 		
 	
 		//Display Bilingual Count
-		DisplayBilingualCount ObjA= new DisplayBilingualCount(dcSpanishCount, dcEnglishCount);
+		DisplayBilingualCount ObjA= new DisplayBilingualCount(dcEnglishCount, dcSpanishCount);
 
 		
 		//Execute

@@ -11,8 +11,15 @@ public class DisplayBilingualCount {
 	}
 	
 	public void start(){
-		firstLangObj.run();
-		secondLangObj.run();
+		firstLangObj.blfirst=true;
+		for(int i=0;i<=9;i++){
+			firstLangObj.count=i;
+			secondLangObj.count=i;
+			
+			firstLangObj.run();
+			secondLangObj.run();
+		}
+		
 	}
 	
 }

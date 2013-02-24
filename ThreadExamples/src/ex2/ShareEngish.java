@@ -1,7 +1,7 @@
 package ex2;
 
 public class ShareEngish extends Share {
-	static String msg[] = { "One", "Two", "Three", "Four", "Five","Six","Seven","Eight","Nine","Ten" };
+    String msg[] = { "One", "Two", "Three", "Four", "Five","Six","Seven","Eight","Nine","Ten" };
 	
 	ShareEngish(String threadname) {
 		super(threadname);
