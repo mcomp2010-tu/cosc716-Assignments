@@ -32,6 +32,21 @@ public class DisplayExecuter {
 		DisplayBilingualCount ObjD= new DisplayBilingualCount(dcSpanishCount, dcEnglishCount);
 		//Execute
 		ObjD.start();
+		
+		
+		System.out.println("\n----------");
+		DisplayBilingualCount ObjE= new DisplayBilingualCount(dcChineseCount, dcEnglishCount);
+		//Execute
+		ObjE.start();
+		
+		
+		System.out.println("\n----------");
+		DisplayBilingualCount ObjF= new DisplayBilingualCount(dcChineseCount, dcSpanishCount);
+		//Execute
+		ObjF.start();
+		
+		
+		
 	}
 
 }
