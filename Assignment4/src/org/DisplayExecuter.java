@@ -48,5 +48,21 @@ public class DisplayExecuter {
 		
 		
 	}
+	
+	/*
+Output:
+
+one(Uno),two(Dos),three(Tres),four(Cuatro),five(Cinco),six(Seis),seven(Siete),eight(Ocho),nine(Nueve),ten(Diez)
+----------
+one(yi),two(er),three(san),four(si),five(wu),six(liu),seven(qui),eight(ba),nine(jiu),ten(shi)
+----------
+Uno(yi),Dos(er),Tres(san),Cuatro(si),Cinco(wu),Seis(liu),Siete(qui),Ocho(ba),Nueve(jiu),Diez(shi)
+----------
+Uno(one),Dos(two),Tres(three),Cuatro(four),Cinco(five),Seis(six),Siete(seven),Ocho(eight),Nueve(nine),Diez(ten)
+----------
+yi(one),er(two),san(three),si(four),wu(five),liu(six),qui(seven),ba(eight),jiu(nine),shi(ten)
+----------
+yi(Uno),er(Dos),san(Tres),si(Cuatro),wu(Cinco),liu(Seis),qui(Siete),ba(Ocho),jiu(Nueve),shi(Diez)
+	 */
 
 }

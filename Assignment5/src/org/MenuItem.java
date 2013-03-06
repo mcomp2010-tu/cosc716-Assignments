@@ -15,6 +15,8 @@ public class MenuItem {
 	/** The Main ingredient. */
 	private String MainIngredient;
 	
+	/** The is heart healthy. */
+	private boolean isHeartHealthy;
 	
 	/**
 	 * Instantiates a new menu item.
@@ -28,7 +30,27 @@ public class MenuItem {
 		this.itemName = itemName;
 		Price = price;
 		MainIngredient = mainIngredient;
+		this.isHeartHealthy=false;
 	}
+
+	
+	/**
+	 * Instantiates a new menu item.
+	 *
+	 * @param itemName the item name
+	 * @param price the price
+	 * @param mainIngredient the main ingredient
+	 * @param isHeartHealthy the is heart healthy
+	 */
+	public MenuItem(String itemName, Double price, String mainIngredient,
+			boolean isHeartHealthy) {
+		super();
+		this.itemName = itemName;
+		Price = price;
+		MainIngredient = mainIngredient;
+		this.isHeartHealthy = isHeartHealthy;
+	}
+
 
 	/**
 	 * Gets the item name.
@@ -66,6 +88,27 @@ public class MenuItem {
 		Price = price;
 	}
 	
+	
+	/**
+	 * Checks if is heart healthy.
+	 *
+	 * @return true, if is heart healthy
+	 */
+	public boolean isHeartHealthy() {
+		return isHeartHealthy;
+	}
+
+
+	/**
+	 * Sets the heart healthy.
+	 *
+	 * @param isHeartHealthy the new heart healthy
+	 */
+	public void setHeartHealthy(boolean isHeartHealthy) {
+		this.isHeartHealthy = isHeartHealthy;
+	}
+
+
 	/**
 	 * Gets the main ingredient.
 	 *
